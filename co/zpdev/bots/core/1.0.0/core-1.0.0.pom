@@ -23,6 +23,11 @@
             <artifactId>JDA</artifactId>
             <version>LATEST</version>
         </dependency>
+        <dependency>
+            <groupId>com.kcthota</groupId>
+            <artifactId>emoji4j</artifactId>
+            <version>5.0</version>
+        </dependency>
     </dependencies>
 
     <properties>
@@ -55,10 +60,9 @@
                             <minimizeJar>false</minimizeJar>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <artifactSet>
-                                <excludes>
-                                    <!-- Exclude jars -->
-                                    <exclude>org.hamcrest:hamcrest-core</exclude>
-                                </excludes>
+                                <includes>
+                                    <include>com.kcthota:emoji4j</include>
+                                </includes>
                             </artifactSet>
                         </configuration>
                     </execution>
