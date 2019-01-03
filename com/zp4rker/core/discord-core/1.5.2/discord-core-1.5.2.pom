@@ -21,7 +21,7 @@
         <dependency>
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
-            <version>LATEST</version>
+            <version>3.8.1_453</version>
         </dependency>
         <!-- Emoji4J -->
         <dependency>
