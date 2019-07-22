@@ -1,2 +1,2 @@
 # maven
-My personal Maven repo.
+my maven repo
