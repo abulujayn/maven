@@ -3,11 +3,12 @@
   <groupId>com.zp4rker</groupId>
   <artifactId>disbot</artifactId>
   <versioning>
-    <release>1.0.0-release</release>
+    <release>1.0.1-release</release>
     <versions>
       <version>1.0.0-alpha</version>
       <version>1.0.0-release</version>
+      <version>1.0.1-release</version>
     </versions>
-    <lastUpdated>20201116061652</lastUpdated>
+    <lastUpdated>20201116062428</lastUpdated>
   </versioning>
 </metadata>
